@@ -5,6 +5,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog'
 import { TodoFormComponent } from '../todo-form/todo-form.component';
+import { TodoCardComponent } from "../todo-card/todo-card.component";
 
 @Component({
   selector: 'app-header',
@@ -13,8 +14,7 @@ import { TodoFormComponent } from '../todo-form/todo-form.component';
     MatButtonModule,
     MatDividerModule,
     MatIconModule,
-    MatDialogModule,
-  ],
+    MatDialogModule, TodoCardComponent],
   templateUrl: './header.component.html',
   styleUrls: []
 })
